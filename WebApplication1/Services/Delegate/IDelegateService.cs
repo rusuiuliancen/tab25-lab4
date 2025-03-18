@@ -5,5 +5,7 @@
         string Greeting(string value, Func<string, string> callback);
 
         string UpperValue(string value);
+
+        string LowerValue(string value); // Added method signature
     }
 }
