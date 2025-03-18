@@ -6,6 +6,5 @@
         {
             return int.TryParse(value, out _);
         }
-
     }
 }
