@@ -11,5 +11,10 @@
         {
             return value.ToUpper();
         }
+
+        public string LowerValue(string value)
+        {
+            return value.ToLower();
+        }
     }
 }

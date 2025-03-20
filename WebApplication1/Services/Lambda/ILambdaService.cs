@@ -2,6 +2,6 @@
 {
     public interface ILambdaService
     {
-        bool TryParseNumber(string value);
+        bool TryParseNumber(string value = "test");
     }
 }
